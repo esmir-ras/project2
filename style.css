@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -115,9 +114,7 @@ nav .links a {
   font-family: "Barlow Condensed", sans-serif;
 }
 nav .links .nav-link.active {
-  color: white;
-  font-size: x-large;
-  background-color: #fd8600;
+  color: #fd8600;
 }
 
 #nav-toggle {
@@ -635,22 +632,20 @@ hr {
   }
 }
 
-.nameError,
-.emailError,
-.messageError {
+.nameError, .emailError, .messageError{
   font-size: 12px;
   color: red;
 }
 
-.client-img {
+.client-img{
   width: 80px;
   height: 80px;
 }
 
-.front-image {
+.front-image{
   width: 200px;
 }
 
-.showcase-img {
+.showcase-img{
   width: 300px;
 }
